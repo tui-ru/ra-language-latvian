@@ -1,0 +1,132 @@
+module.exports = {
+	ra: {
+		action: {
+			export: 'Eksportēt',
+			add_filter: 'Pievienojiet filtru',
+			add: 'Pievienot',
+			back: 'Atpakaļ',
+			bulk_actions: '1 atlasīts |||| Atlasīts %{smart_count}',
+			cancel: 'Atcelt',
+			clear_input_value: 'Skaidrs',
+			clone: 'Dublikāts',
+			confirm: 'Apstipriniet',
+			create: 'Izveidot',
+			delete: 'Dzēst',
+			edit: 'Rediģēt',
+			list: 'Saraksts',
+			refresh: 'Atsvaidzināt',
+			remove_filter: 'Noņemiet filtru',
+			remove: 'Dzēst',
+			save: 'Saglabāt',
+			search: 'Meklēt',
+			show: 'Skats',
+			sort: 'Šķirošana',
+			undo: 'Atcelt',
+			expand: 'Atklājiet',
+			close: 'Aizveriet',
+		},
+		boolean: {
+			true: 'Jā',
+			false: 'Nē',
+			null: '',
+		},
+		page: {
+			create: 'Izveidot %{name}',
+			dashboard: 'Mājas',
+			edit: '%{name} #%{id}',
+			error: 'Kaut kas nogāja greizi',
+			list: '%{name}',
+			loading: 'Iekraušana',
+			not_found: 'Nav atrasts',
+			show: '%{name} #%{id}',
+			empty: 'Nav %{name}.',
+			invite: 'Vai vēlaties pievienot vēl vienu?',
+		},
+		input: {
+			file: {
+				upload_several:
+					'Velciet failus šeit vai noklikšķiniet, lai atlasītu.',
+				upload_single:
+					'Velciet failu šeit vai noklikšķiniet, lai atlasītu.',
+			},
+			image: {
+				upload_several:
+					'Velciet attēlus šeit vai noklikšķiniet, lai atlasītu.',
+				upload_single:
+					'Velciet attēlu šeit vai noklikšķiniet, lai atlasītu.',
+			},
+			references: {
+				all_missing: 'Netika atrasti saistīti dati',
+				many_missing:
+					'Daži no saistītajiem datiem nav pieejami.',
+				single_missing:
+					'Saistītais objekts nav pieejams',
+			},
+			password: {
+				toggle_visible: 'Slēpt paroli',
+				toggle_hidden: 'Rādīt paroli',
+			},
+		},
+		message: {
+			about: 'Palīdzība',
+			are_you_sure: 'Vai esat pārliecināts?',
+			bulk_delete_content:
+				'Vai tiešām vēlaties izdzēst %{name}? |||| Vai tiešām vēlaties dzēst objektus, izmantojot %{smart_count}?',
+			bulk_delete_title: 'Dzēst% {name} |||| Dzēst% {smart_count}% {name}',
+			delete_content: 'Vai tiešām vēlaties dzēst šo vienumu?',
+			delete_title: 'Dzēst %{name} #%{id}',
+			details: 'Apraksts',
+			error: 'Pieprasījuma apstrādes laikā radās kļūda, un to nevar pabeigt',
+			invalid_form:
+				'Veidlapa nav pareizi aizpildīta. Lūdzu, pārbaudiet, vai nav kļūdu',
+			loading: 'Notiek lejupielāde, lūdzu, uzgaidiet ...',
+			no: 'Nē',
+			not_found: 'URL kļūda vai jūs izmantojat nepareizu saiti',
+			yes: 'Jā',
+		},
+		navigation: {
+			no_results: 'Rezultāti nav atrasti',
+			no_more_results: '%{page} lapa nav numurēta, izmēģiniet iepriekšējo',
+			page_out_of_boundaries: '%{page} nav pieejama',
+			page_out_from_end: 'Nevar pāriet garām pēdējai lapai',
+			page_out_from_begin: 'Lapas numurs nedrīkst būt mazāks par 1',
+			page_range_info: '%{offsetBegin}-%{offsetEnd} no %{total}',
+			page_rows_per_page: 'Rindas vienā lappusē:',
+			next: 'Tālāk',
+			prev: 'Iepriekšējais',
+		},
+		auth: {
+			auth_check_error: 'Lūdzu, piesakieties, lai turpinātu.',
+			user_menu: 'Profils',
+			username: 'Lietotājvārds',
+			password: 'Parole',
+			sign_in: 'Piesakieties',
+			sign_in_error: 'Autentifikācija neizdevās, mēģiniet vēlreiz',
+			logout: 'Ej ārā',
+		},
+		notification: {
+			updated: 'Vienums atjaunināts |||| %{smart_count} ir atjaunināts',
+			created: 'Vienums ir izveidots',
+			deleted: 'Postenis svītrots |||| %{smart_count} ir izdzēsts',
+			bad_item: 'Prece nav derīga.',
+			item_doesnt_exist: 'Vienums neeksistē',
+			http_error: 'Servera kļūda',
+			data_provider_error: 'Kļūda dataProvider, pārbaudiet konsoli',
+			i18n_error: 'Neizdevās ielādēt tulkojumu norādītajā valodā.',
+			canceled: 'Darbība atcelta',
+			logged_out:
+				'Jūsu sesija ir pabeigta, mēģiniet vēlreiz izveidot savienojumu/vēlreiz pieteikties',
+		},
+		validation: {
+			required: 'Obligāti',
+			minLength: 'Minimālais rakstzīmju skaits% {min}',
+			maxLength: 'Maksimālais rakstzīmju skaits% {max}',
+			minValue: 'Minimālā vērtība ir% {min}',
+			maxValue: 'Vērtība var būt% {max} vai mazāka',
+			number: 'Jābūt skaitlim',
+			email: 'Nederīgs e-pasts',
+			oneOf: 'Jābūt vienam no:% {options}',
+			regex: 'Jābūt formātam (regexp):% {pattern}',
+		},
+	},
+};
